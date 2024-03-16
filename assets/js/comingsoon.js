@@ -23,6 +23,7 @@ const countdown = () => {
     document.querySelector('.hour').innerText = textHour;
     document.querySelector('.minutes').innerText = textMinutes;
     document.querySelector('.seconds').innerText = textSecond;
+    document.querySelector('.milliseconds').innerText = textMillisecond;
 
 };
 
