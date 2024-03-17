@@ -27,4 +27,4 @@ const countdown = () => {
 
 };
 
-setInterval(countdown, 250);
+setInterval(countdown, 25);
