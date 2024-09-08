@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, follow">
+    <title>dedeckerjonas.be | index.html</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/comingsoon.css">
+</head>
+<body class="bg-success d-flex justify-content-center align-items-center vh-140">
+    <div>
+        Let us present a sneak peak on neural network architecture. This represented architecture is often used in advanced machine learning models of normalizing flows or autoregressive type.
+    
+        <br>
+       Key Components:
+       <br>
+       1. Input (i): The initial input is passed into the existing model and its dimensionality is squeezed to fit the dimensionality of the necessary arguments where possible. With usage of an additional information filter, only the useful parameters are passed into the model. This is common in image processing tasks where spatial dimensions are compressed, and video processing where not all frames encompass new information.
+       <br>
+       2. Invertible 1x1 Convolution: This step shuffles the input data, providing flexibility in transformation while preserving information.
+       <br>
+       3. Dynamic Linear Transformation: This block applies a linear transformation to the data, which adjusts dynamically based on a set of parameters. It can be considered as combination of a physically and artificially-learned transformation that modifies the input data.
+       <br>
+       4. Split Operation: The data is split into two parts: one part undergoes transformations, while the other is reused next to new inputs to generate parameters for the next stage.
+       <br>
+       5. Transformation via Scaling and Shifting (μ, s):
+       <br>
+       - Each data point is transformed by applying a learned scale (s) and shift (μ), making the model more flexible in learning complex data distributions.
+        
+       - These parameters (μ and s) are calculated from the input data and are combined with element-wise operations (multiplication and addition).
+       <br>
+       6. Optional h (Conditional Input or environmental input): This is an optional environmental input that can be used to condition the model on additional information. This could be helpful in models that need to adapt to different contexts or inputs (e.g., conditional normalizing flows), or models that present seasonality, cyclability, a trend, or .
+       <br>
+       7. Output: After the transformations, the final output is obtained. This output can be used for tasks such as density estimation, generation, or regression.
+       <br>
+       <br>
+       Summary:
+       <br>
+       Dynamic linear transformations and invertible convolutions in modern deep learning models, allow for flexible, reversible transformations. These techniques are commonly applied in models designed for density estimation, normalizing flows, generative modeling, and applications based on machinal learning.
+       <br>
+      
+        <br>
+       <img src="assets/img/deeplearning.jpg">
+    </div>
+</body>
+</html>
+
