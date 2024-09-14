@@ -121,10 +121,13 @@ a:hover {
   .text-dark {
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
+    color: black;
+    padding: 5%;
   }
 
   .text-light {
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
+    padding: 5%;
   }
   
