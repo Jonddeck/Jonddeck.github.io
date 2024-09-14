@@ -12,8 +12,11 @@ div {
 }
 
 body {
-  background: url('/assets/img/background.jpg') no-repeat center center fixed !important;
-  background-size: 120vw 120vh;
+  background: url('/assets/img/background.jpg') no-repeat center center fixed !important; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
