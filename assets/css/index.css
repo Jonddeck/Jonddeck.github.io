@@ -13,7 +13,7 @@ div {
 
 body {
   background: url('/assets/img/background.jpg') no-repeat center center fixed !important;
-  background-size: 100% 100%;
+  background-size: 120vw 120vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -121,7 +121,7 @@ a:hover {
   .text-dark {
     font-weight: 600;
     font-family: 'Times New Roman', Times, serif;
-    color: black;
+    color: black !important;
     padding: 5%;
   }
 
